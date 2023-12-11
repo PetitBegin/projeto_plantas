@@ -1,7 +1,13 @@
-h1{
-    font-size:1.2em;
+
+main h1{
+    font-size:20px;
     text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.167);
+   
 }
+
+
+
 
 h2,h3 {
 
@@ -9,29 +15,44 @@ h2,h3 {
 
 }
 
+.accordion-button  p{
+ 
+  text-align: center;
+color: #005C53;
+  
+}
+
+#carouselExampleAutoplaying img{
+    height: 400px;
+}
+
+
 p{
 
     text-align: justify;
 }
 
-#listas{
+ #listas{
     
     display: flex;
-    justify-content: center;
-}
-
-#listas #itens{
+   justify-content: center;
     
-    display: flex;
-
+    
 }
 
+ #listas #itens{
+   
+    display: flex;
+   
+
+}
+ 
 ul li {
 
    
     text-align: justify; 
     
-}
+} 
 
 img{
 
@@ -138,6 +159,7 @@ main div {
     height: 150px;
     flex-basis: 200px;
     margin: 15px;
+   
 
 }
 
@@ -147,6 +169,7 @@ main div {
     height: auto;
     flex-basis: 1000px;
     margin: 10px;
+   
     
 }
 
@@ -435,10 +458,40 @@ main div {
    
 }
 
+#forms .container{
+    border: 1px solid rgba(0, 0, 0, 0.145);
+    margin-top: 20px;
+}
+
 footer {
+
     border: 1px solid rgba(0, 0, 0, 0.164);
     margin-top: 20px;
-    height: 100px;
+    height: auto;
     width: 100%;
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer #ass{
+    
+   
+    margin-left: 50px;
+    padding: 5px;
+}
+
+footer #contatos{
+ 
+    
+    margin-right: 50px;
+    padding: 5px;
+}
+
+footer .ff{
+
+    height: 70px;
+    width: 70px;
+    margin-right:30px;
 }
