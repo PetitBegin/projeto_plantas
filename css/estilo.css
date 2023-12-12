@@ -30,7 +30,7 @@ p{
     text-align: justify;
 }
 
- #listas{
+ .listas{
     
     display: flex;
    justify-content: center;
@@ -38,7 +38,7 @@ p{
     
 }
 
- #listas #itens{
+ .listas .itens{
    
     display: flex;
    
@@ -94,32 +94,6 @@ header #banner div p {
 
 }
 
-
-nav {
-
-    display: flex;
-    border: 1px solid rgba(0, 0, 0, 0.164);
-    width: 100%;
-   
-
-}
-
-nav ul {
-    flex-wrap: wrap;
-    display: flex;
-    margin: 0;
- 
-}
-
-nav li {
-    margin: 15px;
-    list-style-type: circle;
-}
-
-nav a {
-    text-decoration: none;
-}
-
 .navbar-brand img {
     height: 100px;
     width: 100px;
@@ -157,7 +131,7 @@ main div {
     
 }
 
-.planta1 #foto {
+.planta1 .foto {
 
     
     height: 150px;
@@ -167,7 +141,7 @@ main div {
 
 }
 
-.planta1 #descricao {
+.planta1 .descricao {
 
     
     height: auto;
@@ -194,7 +168,7 @@ main div {
     flex-wrap: wrap;
 }
 
-.planta2 #foto {
+.planta2 .foto {
 
     
     height: 150px;
@@ -203,7 +177,7 @@ main div {
 
 }
 
-.planta2 #descricao {
+.planta2 .descricao {
 
     
     height: auto;
@@ -227,7 +201,7 @@ main div {
     flex-wrap: wrap;
 }
 
-.planta3 #foto {
+.planta3 .foto {
 
     
     height: 150px;
@@ -236,7 +210,7 @@ main div {
 
 }
 
-.planta3 #descricao {
+.planta3 .descricao {
 
     
     height: auto;
@@ -258,7 +232,7 @@ main div {
     flex-wrap: wrap;
 }
 
-.planta4 #foto {
+.planta4 .foto {
 
     
     height: 150px;
@@ -267,7 +241,7 @@ main div {
 
 }
 
-.planta4 #descricao {
+.planta4 .descricao {
 
     
     height: auto;
@@ -289,7 +263,7 @@ main div {
     flex-wrap: wrap;
 }
 
-.planta5 #foto {
+.planta5 .foto {
 
     
     height: 150px;
@@ -298,7 +272,7 @@ main div {
 
 }
 
-.planta5 #descricao {
+.planta5 .descricao {
 
     
     height: auto;
@@ -320,7 +294,7 @@ main div {
     flex-wrap: wrap;
 }
 
-.planta6 #foto {
+.planta6 .foto {
 
     
     height: 150px;
@@ -329,7 +303,7 @@ main div {
 
 }
 
-.planta6 #descricao {
+.planta6 .descricao {
 
     
     height: auto;
@@ -351,7 +325,7 @@ main div {
     flex-wrap: wrap;
 }
 
-.planta7 #foto {
+.planta7 .foto {
 
     
     height: 150px;
@@ -360,7 +334,7 @@ main div {
 
 }
 
-.planta7 #descricao {
+.planta7 .descricao {
 
     
     height: auto;
@@ -382,7 +356,7 @@ main div {
     flex-wrap: wrap;
 }
 
-.planta8 #foto {
+.planta8 .foto {
 
     
     height: 150px;
@@ -391,7 +365,7 @@ main div {
 
 }
 
-.planta8 #descricao {
+.planta8 .descricao {
 
     
     height: auto;
@@ -413,7 +387,7 @@ main div {
     flex-wrap: wrap;
 }
 
-.planta9 #foto {
+.planta9 .foto {
 
     
     height: 150px;
@@ -422,7 +396,7 @@ main div {
 
 }
 
-.planta9 #descricao {
+.planta9 .descricao {
 
     
     height: auto;
@@ -444,7 +418,7 @@ main div {
     flex-wrap: wrap;
 }
 
-.planta10 #foto {
+.planta10 .foto {
 
     
     height: 150px;
@@ -453,7 +427,7 @@ main div {
 
 }
 
-.planta10 #descricao {
+.planta10 .descricao {
 
     
     height: auto;
@@ -484,7 +458,16 @@ footer #ass{
    
     margin-left: 50px;
     padding: 5px;
+    
 }
+footer #ass p{
+
+    font-size: 13px;
+    
+}
+
+
+
 
 footer #contatos{
  
@@ -495,7 +478,7 @@ footer #contatos{
 
 footer .ff{
 
-    height: 70px;
-    width: 70px;
+    height: 30px;
+    width: 30px;
     margin-right:30px;
 }
